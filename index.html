@@ -1,0 +1,557 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#0A0909" />
+    <meta name="description" content="Portfólio de Pietro M. Lubenov" />
+    <title>Pietro M. Lubenov — Portfólio</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Inter:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#conteudo">Pular para o conteúdo</a>
+
+    <header class="site-header">
+      <nav class="site-nav shell" aria-label="Navegação principal">
+        <a class="brand" href="#inicio" aria-label="Pietro M. Lubenov — início">
+          <span class="brand-mark" aria-hidden="true">P<span>·</span>L</span>
+          <span class="brand-name">Pietro M. Lubenov</span>
+        </a>
+
+        <button
+          class="nav-toggle"
+          type="button"
+          aria-expanded="false"
+          aria-controls="primary-nav"
+          aria-label="Abrir menu"
+        >
+          <span></span><span></span>
+        </button>
+
+        <ul class="primary-nav" id="primary-nav">
+          <li><a href="#inicio">Início</a></li>
+          <li><a href="#projetos">Projetos</a></li>
+          <li><a href="#contato">Contato</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main id="conteudo">
+      <section
+        class="hero section-shell"
+        id="inicio"
+        aria-labelledby="hero-title"
+      >
+        <div class="hero-copy">
+          <p class="eyebrow"><span class="eyebrow-line"></span> Portfólio</p>
+          <h1 id="hero-title">Pietro M.<br /><em>Lubenov</em></h1>
+          <p class="hero-formation">
+            Técnico em Informática <span aria-hidden="true">/</span> IFMT
+          </p>
+          <p class="hero-description">
+            Jovem interessado em utilizar conhecimentos da informática para
+            padronizar e facilitar processos, além de aplicá-los com foco na
+            universalidade informacional.
+          </p>
+
+          <div class="hero-actions">
+            <a class="button button-primary" href="#projetos"
+              >Explorar projetos <span aria-hidden="true">↘</span></a
+            >
+            <div class="social-links" aria-label="Redes sociais">
+              <a
+                href="https://www.instagram.com/pietromertens/"
+                target="_blank"
+                rel="noopener noreferrer"
+                >Instagram <span aria-hidden="true">↗</span></a
+              >
+              <a
+                href="https://github.com/SirOfGears?tab=repositories"
+                target="_blank"
+                rel="noopener noreferrer"
+                >GitHub <span aria-hidden="true">↗</span></a
+              >
+            </div>
+          </div>
+        </div>
+
+        <div class="hero-ornament" aria-hidden="true">
+          <div class="arch-frame">
+            <div class="arch-inner">
+              <div class="arch-cross"></div>
+              <div class="arch-diamond"><span>P</span></div>
+              <div class="arch-base-line"></div>
+            </div>
+          </div>
+        </div>
+
+        <a class="scroll-cue" href="#projetos"
+          ><span></span> Rolar para descobrir</a
+        >
+      </section>
+
+      <section
+        class="projects-section section-shell"
+        id="projetos"
+        aria-labelledby="projects-title"
+      >
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow">
+              <span class="eyebrow-line"></span> Seleção de trabalhos
+            </p>
+            <h2 id="projects-title">Projetos em <em>destaque</em></h2>
+          </div>
+          <p class="section-intro">
+            Soluções construídas em torno de necessidades concretas: estruturar
+            solicitações, simplificar autorizações e viabilizar comunicação
+            local.
+          </p>
+        </div>
+
+        <div class="project-cards">
+          <article class="project-card">
+            <div class="card-topline">
+              <span>01 / DOCUMENTOS</span
+              ><span class="card-symbol" aria-hidden="true">✳</span>
+            </div>
+            <h3>
+              <a href="#projeto-licitacao"
+                >licitacao_ifciencia <span aria-hidden="true">↘</span></a
+              >
+            </h3>
+            <p>
+              Um script em Python que organiza pedidos de objetos e serviços e
+              os transforma em um documento PDF padronizado.
+            </p>
+            <div class="tag-list" aria-label="Tecnologias">
+              <span>Python</span><span>ReportLab</span><span>PDF</span>
+            </div>
+            <a class="card-link" href="#projeto-licitacao"
+              >Ver detalhes <span aria-hidden="true">→</span></a
+            >
+          </article>
+
+          <article class="project-card">
+            <div class="card-topline">
+              <span>02 / COMUNICAÇÃO</span
+              ><span class="card-symbol" aria-hidden="true">⌁</span>
+            </div>
+            <h3>
+              <a href="#projeto-netchat"
+                >Net_Chat <span aria-hidden="true">↘</span></a
+              >
+            </h3>
+            <p>
+              Um site de chat para rede local, com canais via WebSockets e sem
+              banco de dados, pensado para comunicação em ambientes
+              compartilhados.
+            </p>
+            <div class="tag-list" aria-label="Tecnologias">
+              <span>HTML</span><span>CSS</span><span>WebSockets</span
+              ><span>Python</span>
+            </div>
+            <a class="card-link" href="#projeto-netchat"
+              >Ver detalhes <span aria-hidden="true">→</span></a
+            >
+          </article>
+
+          <article class="project-card">
+            <div class="card-topline">
+              <span>03 / AUTOMAÇÃO</span
+              ><span class="card-symbol" aria-hidden="true">✧</span>
+            </div>
+            <h3>
+              <a href="#projeto-liberacao"
+                >liberacao_ifciencia <span aria-hidden="true">↘</span></a
+              >
+            </h3>
+            <p>
+              Uma ferramenta em Python para emitir autorizações de saída de
+              sala, organizando os dados dos estudantes em um PDF pronto para
+              validação.
+            </p>
+            <div class="tag-list" aria-label="Tecnologias">
+              <span>Python 3.11</span><span>ReportLab</span><span>PDF</span>
+            </div>
+            <a class="card-link" href="#projeto-liberacao"
+              >Ver detalhes <span aria-hidden="true">→</span></a
+            >
+          </article>
+        </div>
+      </section>
+
+      <section
+        class="details-section section-shell"
+        aria-labelledby="details-title"
+      >
+        <article
+          class="project-detail"
+          id="projeto-licitacao"
+          aria-labelledby="licitacao-title"
+        >
+          <header class="detail-header">
+            <p class="detail-index">
+              PROJETO 01 <span>—</span> IFCIÊNCIA PODCAST
+            </p>
+            <h2 id="licitacao-title">licitacao_<em>ifciencia</em></h2>
+            <p class="detail-subtitle">
+              Padronização de solicitações de objetos e serviços.
+            </p>
+          </header>
+
+          <div class="detail-layout">
+            <div class="detail-main">
+              <section class="detail-block">
+                <h3>Finalidade e necessidade</h3>
+                <p>
+                  O projeto é um script em Python voltado a padronizar pedidos
+                  de objetos e serviços do IFCIÊNCIA PODCAST — PVA. A proposta é
+                  reunir as informações de uma solicitação em um documento
+                  organizado, em vez de deixar a preparação de cada pedido
+                  depender de uma formatação manual.
+                </p>
+              </section>
+              <section class="detail-block">
+                <h3>Funcionalidades implementadas</h3>
+                <ul>
+                  <li>Solicita o nome do servidor responsável.</li>
+                  <li>
+                    Recebe a quantidade de objetos ou serviços e, para cada
+                    item, seu nome e quantidade.
+                  </li>
+                  <li>
+                    Gera um PDF com cabeçalho institucional, identificação do
+                    responsável e relação numerada dos itens.
+                  </li>
+                  <li>
+                    Inclui campos para data e assinatura, destinados à validação
+                    do documento.
+                  </li>
+                  <li>
+                    Permite iniciar uma nova solicitação ao final do processo.
+                  </li>
+                </ul>
+              </section>
+              <section class="detail-block">
+                <h3>Características técnicas</h3>
+                <p>
+                  O arquivo <code>lici.py</code> utiliza
+                  <strong>ReportLab</strong> — com
+                  <code>SimpleDocTemplate</code>, <code>Paragraph</code> e
+                  <code>Spacer</code> — para compor o PDF. O módulo
+                  <code>datetime</code> fornece a data e a hora usadas no nome
+                  do arquivo, no formato
+                  <code>Licitacao_DD-MM-AAAA_HH-MM-SS.pdf</code>.
+                </p>
+              </section>
+              <section class="detail-block">
+                <h3>Diferencial</h3>
+                <p>
+                  Este projeto se tornou útil por conta da facilidade de todos
+                  os membros o utilizarem facilmente, além de padronizar os
+                  documentos.
+                </p>
+              </section>
+            </div>
+
+            <aside class="detail-aside" aria-label="Ficha técnica do projeto">
+              <span class="aside-label">Ficha técnica</span>
+              <dl>
+                <div>
+                  <dt>Linguagem</dt>
+                  <dd>Python</dd>
+                </div>
+                <div>
+                  <dt>Biblioteca</dt>
+                  <dd>ReportLab</dd>
+                </div>
+                <div>
+                  <dt>Módulo</dt>
+                  <dd>datetime</dd>
+                </div>
+                <div>
+                  <dt>Entrada</dt>
+                  <dd>Terminal interativo</dd>
+                </div>
+                <div>
+                  <dt>Saída</dt>
+                  <dd>Documento PDF</dd>
+                </div>
+                <div>
+                  <dt>Arquivo</dt>
+                  <dd>lici.py</dd>
+                </div>
+              </dl>
+              <a
+                class="repo-link"
+                href="https://github.com/SirOfGears/licitacao_ifciencia"
+                target="_blank"
+                rel="noopener noreferrer"
+                >Acessar repositório <span aria-hidden="true">↗</span></a
+              >
+            </aside>
+          </div>
+        </article>
+
+        <article
+          class="project-detail"
+          id="projeto-netchat"
+          aria-labelledby="netchat-title"
+        >
+          <header class="detail-header">
+            <p class="detail-index">
+              PROJETO 02 <span>—</span> COMUNICAÇÃO LOCAL
+            </p>
+            <h2 id="netchat-title">Net_<em>Chat</em></h2>
+            <p class="detail-subtitle">
+              Chat em rede local com canais via WebSockets.
+            </p>
+          </header>
+
+          <div class="detail-layout">
+            <div class="detail-main">
+              <section class="detail-block">
+                <h3>Finalidade e necessidade</h3>
+                <p>
+                  O Net_Chat foi criado partindo da ideia de comunicação em rede
+                  local(LAN) sem deixar rastros.
+                </p>
+              </section>
+              <section class="detail-block">
+                <h3>Funcionalidades documentadas</h3>
+                <ul>
+                  <li>Página inicial para entrada na aplicação.</li>
+                  <li>
+                    Seleção de sala e definição de nome para participar da
+                    conversa.
+                  </li>
+                  <li>Interface de mensagens dentro da sala.</li>
+                  <li>Opção para alterar a cor do texto.</li>
+                  <li>Canais “infinitos”, utilizando WebSockets.</li>
+                </ul>
+              </section>
+              <section class="detail-block">
+                <h3>Características técnicas</h3>
+                <p>
+                  O projeto utiliza templates HTML/CSS e canais por WebSockets.
+                  Não há banco de dados: configurações e nomes ficam na memória
+                  do navegador, sem serem salvos no sistema Net_Chat.
+                </p>
+              </section>
+              <section class="detail-block">
+                <h3>Diferencial</h3>
+                <p>
+                  A proposta combina comunicação em rede local, canais via
+                  WebSockets e ausência de banco de dados.
+                </p>
+              </section>
+            </div>
+
+            <aside class="detail-aside" aria-label="Ficha técnica do projeto">
+              <span class="aside-label">Ficha técnica</span>
+              <dl>
+                <div>
+                  <dt>Aplicação</dt>
+                  <dd>Chat em rede local (LAN)</dd>
+                </div>
+                <div>
+                  <dt>Interface documentada</dt>
+                  <dd>HTML e CSS</dd>
+                </div>
+                <div>
+                  <dt>Comunicação</dt>
+                  <dd>WebSockets e Python</dd>
+                </div>
+                <div>
+                  <dt>Banco de dados</dt>
+                  <dd>Não utiliza</dd>
+                </div>
+                <div>
+                  <dt>Persistência</dt>
+                  <dd>Apenas enquanto o servidor estiver ligado</dd>
+                </div>
+                <div>
+                  <dt>Licença</dt>
+                  <dd>MIT</dd>
+                </div>
+              </dl>
+              <a
+                class="repo-link"
+                href="https://github.com/SirOfGears/Net_Chat"
+                target="_blank"
+                rel="noopener noreferrer"
+                >Acessar repositório <span aria-hidden="true">↗</span></a
+              >
+            </aside>
+          </div>
+        </article>
+
+        <article
+          class="project-detail"
+          id="projeto-liberacao"
+          aria-labelledby="liberacao-title"
+        >
+          <header class="detail-header">
+            <p class="detail-index">
+              PROJETO 03 <span>—</span> IFCIÊNCIA PODCAST
+            </p>
+            <h2 id="liberacao-title">liberacao_<em>ifciencia</em></h2>
+            <p class="detail-subtitle">
+              Emissão de autorizações para atividades fora da sala de aula.
+            </p>
+          </header>
+
+          <div class="detail-layout">
+            <div class="detail-main">
+              <section class="detail-block">
+                <h3>Finalidade e necessidade</h3>
+                <p>
+                  O script automatiza a emissão de autorizações oficiais para a
+                  saída de sala de estudantes que participam de atividades do
+                  IFCIÊNCIA PODCAST, no IFMT — Campus Primavera do Leste. A
+                  documentação aponta três objetivos: agilizar a dispensa formal
+                  para gravações e monitorias, dar transparência ao processo e
+                  apresentar os alunos em uma tabela padronizada.
+                </p>
+              </section>
+              <section class="detail-block">
+                <h3>Funcionalidades implementadas</h3>
+                <ul>
+                  <li>
+                    Coleta o nome do servidor responsável e do monitor
+                    solicitante.
+                  </li>
+                  <li>
+                    Recebe a quantidade de alunos e o nome de cada estudante.
+                  </li>
+                  <li>
+                    Solicita a data e o período em que os alunos ficarão fora de
+                    sala.
+                  </li>
+                  <li>
+                    Gera uma autorização em PDF com o texto formal e uma tabela
+                    numerada de estudantes.
+                  </li>
+                  <li>
+                    Inclui campos para data e assinaturas do monitor e do
+                    servidor responsável.
+                  </li>
+                  <li>
+                    Permite emitir outra autorização sem encerrar imediatamente
+                    o programa.
+                  </li>
+                </ul>
+              </section>
+              <section class="detail-block">
+                <h3>Características técnicas</h3>
+                <p>
+                  O arquivo <code>libe.py</code> utiliza Python, ReportLab e
+                  <code>datetime</code>. Para o documento, combina
+                  <code>SimpleDocTemplate</code>, <code>Paragraph</code>,
+                  <code>Spacer</code>, <code>Table</code> e
+                  <code>TableStyle</code>. A tabela tem cabeçalho com numeração
+                  e nome do aluno, grade, alinhamento e estilos próprios. O PDF
+                  recebe um nome com data e hora de geração.
+                </p>
+              </section>
+              <section class="detail-block">
+                <h3>Diferencial</h3>
+                <p>
+                  Além de gerar o documento, o projeto organiza visualmente uma
+                  relação de estudantes vinculada a uma justificativa
+                  institucional, ao período solicitado e aos responsáveis pela
+                  atividade. A saída já reserva espaço para a validação física
+                  por assinatura.
+                </p>
+              </section>
+            </div>
+
+            <aside class="detail-aside" aria-label="Ficha técnica do projeto">
+              <span class="aside-label">Ficha técnica</span>
+              <dl>
+                <div>
+                  <dt>Linguagem</dt>
+                  <dd>Python 3.11 (README)</dd>
+                </div>
+                <div>
+                  <dt>Biblioteca</dt>
+                  <dd>ReportLab</dd>
+                </div>
+                <div>
+                  <dt>Módulo</dt>
+                  <dd>datetime</dd>
+                </div>
+                <div>
+                  <dt>Entrada</dt>
+                  <dd>Terminal interativo</dd>
+                </div>
+                <div>
+                  <dt>Saída</dt>
+                  <dd>PDF com tabela</dd>
+                </div>
+                <div>
+                  <dt>Arquivo</dt>
+                  <dd>libe.py</dd>
+                </div>
+              </dl>
+              <a
+                class="repo-link"
+                href="https://github.com/SirOfGears/liberacao_ifciencia"
+                target="_blank"
+                rel="noopener noreferrer"
+                >Acessar repositório <span aria-hidden="true">↗</span></a
+              >
+            </aside>
+          </div>
+        </article>
+      </section>
+
+      <section
+        class="contact-section section-shell"
+        id="contato"
+        aria-labelledby="contact-title"
+      >
+        <p class="eyebrow"><span class="eyebrow-line"></span> Contato</p>
+        <div class="contact-content">
+          <h2 id="contact-title">
+            Ideias claras.<br /><em>Processos melhores.</em>
+          </h2>
+          <div class="contact-right">
+            <p>
+              Para conhecer outros trabalhos ou entrar em contato, acesse meus
+              perfis.
+            </p>
+            <a
+              href="https://github.com/SirOfGears?tab=repositories"
+              target="_blank"
+              rel="noopener noreferrer"
+              >GitHub <span aria-hidden="true">↗</span></a
+            >
+            <a
+              href="https://www.instagram.com/pietromertens/"
+              target="_blank"
+              rel="noopener noreferrer"
+              >Instagram <span aria-hidden="true">↗</span></a
+            >
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="shell footer-inner">
+        <span>© 2026 Pietro M. Lubenov</span>
+        <a href="#inicio">Voltar ao início ↑</a>
+      </div>
+    </footer>
+  </body>
+</html>
